@@ -3,7 +3,7 @@ create a JSON representation of Solidity's import hierarchy
 
 ```solmap``` takes a single solidity file as input as an entry point, performs an AST walk on it and all files imported and creates a JSON representing the import tree.
 
-**NOTE:** In case of circular dependencies, the second and subsequent occurance(s) of a file are siply ignore and are not part of the final JSON.
+**NOTE:** In case of circular dependencies, the second and subsequent occurance(s) of a file are simply ignored and are not part of the final JSON.
 
 For eg- here is ```a.sol```:
 ```
